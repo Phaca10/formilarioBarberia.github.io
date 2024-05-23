@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Barber Shop</h1>
+    <img src="asset/descarga.jpg" alt="imagenpalos">
+    <h4>Formulario Online</h4>
+    <p>Para solicitar turno ingresa tus datos:</p>
+</header>
+<body>
+    <form action="#" method="get"></form>
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" 
+        name="nombre" 
+        placeholder="Ingresa tu nombre"
+        minlength="4" maxlength="30" required>
+
+    </div>
+    <div>
+        <label for="nombre">Apellido:</label>
+        <input type="text" 
+        name="apellido" 
+        placeholder="Ingresa tu apellido"
+        minlength="4" maxlength="30" required>
+
+    </div>    
+    
+    <div>
+        <label for="edad">Edad:</label>
+        <input type="number" 
+        name="edad" 
+        placeholder="Años"
+        required>
+    </div>
+    <div>
+        <label for="color">Color de tu mascota</label>
+        <input type="color" 
+        id="color"
+        name="color" 
+        required>
+    </div>
+    <div>
+        <label for="genero">Genero:</label>
+        <input type="radio" 
+        name="genero" 
+        value="Macho" 
+        required>
+        <label for="Macho">Masculino</label>
+        <input type="radio" 
+        name="genero" 
+        value="Hembra" 
+        required>
+        <label for="Hembra">Femenino</label>
+        <input type="radio" 
+        name="genero" 
+        value="Undefined" 
+        required>
+        <label for="Undefined">Prefiero no decirlo</label>
+        
+    </div>
+    <div>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" 
+        name="correo" 
+        placeholder="Correo Electrónico"
+        required>
+    </div>
+    <div>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" 
+        name="contrasena" 
+        placeholder="Contraseña"
+        required>
+    </div>
+    <div>
+        <section>
+            <label for="formaPago">Forma de Pago:</label>
+            <select name="formaPago" id="formaPago" required>
+                <option value="cuentaDni">Cuenta DNI</option>
+                <option value="mercadoPago">Mercado Pago</option>
+                <option value="tarjetaDebito">Tarjeta Débito</option>
+                <option value="tarjetaCredito">Tarjeta Crédito</option>
+                <option value="Otro">Otro</option>
+            </select>
+            
+        </section>
+    </div>
+    <input 
+        type="checkbox"
+        id="basesYCondiciones"
+        name="basesYCondiciones"
+        value="acepta"
+        required
+    />
+    <div>
+        <button type="submit">Enviar</button>
+    </div>
+    <div>
+        <form action="" method="post"></form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+html {text-align: center; 
+    
+    
+}
+body {
+    margin: 10%;
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 2%;
+    background: radial-gradient( white 50%, red);
+    
+    
+}
+h1 {
+    border: 2px solid black;
+}
